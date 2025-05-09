@@ -1,9 +1,5 @@
 <?php
 
-$namePlateElements = [
-    'type' => ['param_type' => 'colors', 'pram_values' => [3 => 'brown', 4 => 'green']]
-];
-
 class Something
 {
 
@@ -14,7 +10,6 @@ class Something
                 case "InUn":
                     $this->addInUnits($parameters, $type, $namePlateElements);
                     break;
-
             }
         }
     }
@@ -35,4 +30,3 @@ class Something
         return 'some_key';
     }
 }
-

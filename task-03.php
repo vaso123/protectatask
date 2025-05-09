@@ -9,7 +9,6 @@ $namePlateElements = [];
 //...
 
 foreach ($params as $param) {
-
     $paramName = $param['Param_nev'];
     $paramValue = $param['Param_ertek'];
 

@@ -1,16 +1,6 @@
 <?php
 
 {
-    /**
-     * Thease are only for suppress errors
-     *
-     */
-    $DataBase = new SQLiteDatabase();
-    $sql = '';
-    $result = $DataBase->SqlQuery($sql);
-    $dataToStore = [];
-
-
     $fieldsToUpdate = [
         'KartyaCim',
         'oregszik',

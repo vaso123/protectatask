@@ -1,8 +1,6 @@
 <?php
 
 {
-    //$resultSet = $Dataase->getResults(...);
-    //$dataToStore = getDataToStore($context);
     $actualRecord = $resultSet[0];
     $updateRequired = FALSE;
     $sql = "";
@@ -36,7 +34,8 @@
     }
 }
 
-function isUpdateRequired($fieldName, $doesNotForceUpdate) {
+function isUpdateRequired($fieldName, $doesNotForceUpdate)
+{
     if (!in_array($fieldName, $doesNotForceUpdate)) {
         return true;
     }
