@@ -37,5 +37,5 @@ function CalculateBiggestRadius($points): float
         $uniqueIds[] = $point['id'];
         $biggestRadius = $point['distance'];
     }
-    return $biggestRadius;
+    return floatval($biggestRadius);
 }
